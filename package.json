@@ -1,0 +1,16 @@
+{
+  "name": "pass-proxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx functions-framework --target=pass_proxy",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "xuanda",
+  "license": "ISC",
+  "dependencies": {
+    "http-proxy": "^1.18.1",
+    "@google-cloud/functions-framework": "^3.1.3"
+  }
+}
